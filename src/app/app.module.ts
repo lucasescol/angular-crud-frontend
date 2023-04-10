@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { NgModule, LOCALE_ID } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -50,6 +51,7 @@ registerLocaleData(localePt)
   ],
   imports: [
     BrowserModule,
+    RouterModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
